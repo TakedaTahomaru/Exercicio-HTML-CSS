@@ -5,3 +5,17 @@ body {
     font-size: medium;
     line-height: 1,25;
 }
+button{
+    border: solid 1px #00fa9a;
+    border-radius: 20px;
+    background-color: #00fa9a;
+    color: black;
+    font-family:'Comic Sans Ms', sans-serif;
+    font-size: medium;
+    line-height: 1,12;
+}
+button:hover{
+    background-color: #00fa9a; 
+    color: black;
+    transform: scale(1.2)
+}
