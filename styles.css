@@ -5,14 +5,26 @@ body {
     font-size: medium;
     line-height: 1,25;
 }
-strong{
+
+span{
     color: #00fa9a;
 }
+
 img{
     height: 420px; 
     width: 420px;
+    border:1px solid #00fa9a;
+    padding: 10px;
+    margin-bottom: 20px;
+    
+
 }
-button{
+
+img:hover{
+    background-color: #00fa9a;
+}
+
+.button{
     border: solid 1px #00fa9a;
     border-radius: 20px;
     background-color: #00fa9a;
@@ -20,8 +32,12 @@ button{
     font-family:'Comic Sans Ms', sans-serif;
     font-size: medium;
     line-height: 1,12;
+    margin-right: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    
 }
-button:hover{
+.button:hover{
     background-color: #00fa9a; 
     color: black;
     transform: scale(1.2)

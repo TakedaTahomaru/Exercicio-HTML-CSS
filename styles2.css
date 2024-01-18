@@ -12,14 +12,17 @@ body {
 img{
     height: 420px;
     width: 420px;
+    border: 1px solid black;
+    padding: 10px;
+    margin-bottom: 20px;
 }
 h1{
     color: white
 }
-strong{
+span{
     color: black
 }
-button{
+.button{
     border: solid 1px black;
     border-radius: 30px;
     background-color: black;
@@ -28,7 +31,7 @@ button{
     font-size: medium;
     line-height: 1,12;
 }
-button:hover{
+.button:hover{
     background-color: darkgrey; 
     color: black;
     transform: scale(1.2)
