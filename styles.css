@@ -8,6 +8,10 @@ body {
 strong{
     color: #00fa9a;
 }
+img{
+    height: 420px; 
+    width: 420px;
+}
 button{
     border: solid 1px #00fa9a;
     border-radius: 20px;
