@@ -5,6 +5,9 @@ body {
     font-size: medium;
     line-height: 1,25;
 }
+strong{
+    color: #00fa9a;
+}
 button{
     border: solid 1px #00fa9a;
     border-radius: 20px;
